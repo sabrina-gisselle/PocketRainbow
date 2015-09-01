@@ -1,0 +1,24 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragmentColorMatch">
+    <TextView
+        android:id="@+id/exactMatchText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="2"/>
+
+    <TextView
+        android:id="@+id/swatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:height="25sp"
+        android:text="                               "
+        android:layout_gravity="center" />
+
+
+</LinearLayout>
+
